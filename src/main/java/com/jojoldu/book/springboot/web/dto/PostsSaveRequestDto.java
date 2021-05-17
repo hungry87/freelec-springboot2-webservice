@@ -19,6 +19,7 @@ public class PostsSaveRequestDto {
         this.author = author;
     }
 
+    //Posts 도메인으로 맵핑
     public Posts toEntity() {
         return Posts.builder()
                 .title(title)
